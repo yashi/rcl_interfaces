@@ -1,0 +1,7 @@
+name: rcl_interfaces
+build:
+  cmake: zephyr
+  kconfig: zephyr/Kconfig
+  depends:
+    - rosidl
+    - unique_identifier_msgs
